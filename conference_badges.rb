@@ -17,4 +17,12 @@ def assign_rooms(speakers)
     puts "Hello, #{name}! You'll be assigned to room #{room}!"
   }
 end
+
+def printer(speakers)
+  batch_badge_creator(speakers).each { |i|
+    puts value
+  }
+  assign_rooms(speakers).each { |i|
+    puts i
+  }
 end
