@@ -5,10 +5,10 @@ end
 
 def batch_badge_creator(names)
   badge_array[]
-  names.each do |name|
-    badge_array.push("Hello, my namy is #{name}.")
+  names.each do |i|
+    badge_array.push("Hello, my namy is #{i}.")
   end
-  return badge_array
+  puts badge_array
 end
 
 def assign_rooms(names)
