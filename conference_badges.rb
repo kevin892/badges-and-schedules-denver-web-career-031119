@@ -30,5 +30,3 @@ def printer(names)
     puts id
   end
 end
-
-
